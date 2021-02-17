@@ -1,0 +1,52 @@
+body{
+    background-attachment: scroll;
+    /* background: linear-gradient(45deg, black, #272727); */
+    background-color: white;
+    
+}
+*{
+    scrollbar-color: transparent transparent;
+}
+.full{
+    height: 100vh;
+}
+.html, body{
+    height: 100vh;
+}
+.cent{
+    margin: auto;
+}
+.textcent{
+    text-align: center;
+}
+.bord{
+    border: solid black 1px;
+}
+#top{
+    width: 75%;
+    margin: 45vh auto;
+}
+#middle{
+    width: 75%;
+    margin: 45vh auto;
+}
+.example::-webkit-scrollbar {
+  display: none;
+}
+#learnmore{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #24a8e6;
+    transition-duration: 0.4s;
+}
+#learnmore:hover{
+    background-color: #24a8e6;
+    border: 2px solid black;
+    color: white;
+}
+a, u {
+    text-decoration: none;
+    color: black;
+}
