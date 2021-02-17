@@ -1,16 +1,16 @@
 body{
     background-attachment: scroll;
     /* background: linear-gradient(45deg, black, #272727); */
-    background-color: white;
+    background-color: black;
     
 }
-*{
-    scrollbar-color: transparent transparent;
+body{
+    color: white;
 }
 .full{
     height: 100vh;
 }
-.html, body{
+html, body{
     height: 100vh;
 }
 .cent{
@@ -22,20 +22,35 @@ body{
 .bord{
     border: solid black 1px;
 }
+.customcard{
+    width: 40%;
+    height: 300px;
+    color: white;
+    background-color: black;
+    border: solid white 1px;
+}
+.svglogo{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 50%;
+    border: solid black 3px ;
+    background-color: rgb(0, 174, 255);
+}
 #top{
     width: 75%;
     margin: 45vh auto;
 }
 #middle{
     width: 75%;
-    margin: 45vh auto;
+    margin: 30vh auto 0;
 }
-.example::-webkit-scrollbar {
-  display: none;
-}
+
 #learnmore{
-    width: 150px;
-    height: 50px;
+    width: 30%;
+    min-height: 50px;
+    min-width: 120px;
+    max-width: 150px;
     background-color: white;
     border-radius: 10px;
     border: 2px solid #24a8e6;
@@ -50,3 +65,12 @@ a, u {
     text-decoration: none;
     color: black;
 }
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }

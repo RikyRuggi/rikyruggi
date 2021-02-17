@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #000;
+        stroke-width: 10px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #23c8db;
+      }
+
+      .cls-3 {
+        fill: #1d7f8b;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="383.594" y1="651.625" x2="383.594" y2="170.344" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#82522c"/>
+      <stop offset="0.16" stop-color="#82522c"/>
+      <stop offset="0.653" stop-color="#6f3f1c"/>
+      <stop offset="1" stop-color="#6f3f1c"/>
+    </linearGradient>
+  </defs>
+  <path id="Legno" class="cls-1" d="M565.7,173.265l55.184,55.127a10.007,10.007,0,0,1,.011,14.146L215.6,648.691a9.994,9.994,0,0,1-14.138.011l-55.184-55.128a10.005,10.005,0,0,1-.011-14.146L551.561,173.276A9.992,9.992,0,0,1,565.7,173.265Z"/>
+  <path id="Forma_Originale" class="cls-2" d="M271.705,98.519c-6.682,14.444,126.671,74.592,240.88,189.979s172.983,249.354,187.5,242.82c17.214-7.751-13.11-175.316-133.157-296.6S279.633,81.385,271.705,98.519Z"/>
+  <path id="Bullone" class="cls-3" d="M530.678,183.888l78.816,78.735a10.007,10.007,0,0,1,.011,14.146l-66.5,66.641a9.994,9.994,0,0,1-14.138.011l-78.816-78.736a10.005,10.005,0,0,1-.011-14.146l66.5-66.64A9.992,9.992,0,0,1,530.678,183.888Z"/>
+</svg>
