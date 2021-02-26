@@ -2,16 +2,16 @@ body{
     background-attachment: scroll;
     /* background: linear-gradient(45deg, black, #272727); */
     background-color: black;
-    
-}
-body{
     color: white;
 }
+*{
+    border: black solid 1px;
+}
 .full{
-    height: 100vh;
+    height: 100%;
 }
 html, body{
-    height: 100vh;
+    height: 100%;
 }
 .cent{
     margin: auto;
@@ -23,8 +23,10 @@ html, body{
     border: solid black 1px;
 }
 .customcard{
+    margin: auto;
     width: 40%;
-    height: 300px;
+    height: 20%;
+    max-width: 250px;
     color: white;
     background-color: black;
     border: solid white 1px;
@@ -37,15 +39,21 @@ html, body{
     border: solid black 3px ;
     background-color: rgb(0, 174, 255);
 }
+.cyxbutton{
+    background-color: white;
+    border-radius: 10%;
+    border: white solid 1px;
+}
 #top{
-    width: 75%;
     margin: 45vh auto;
 }
 #middle{
-    width: 75%;
-    margin: 30vh auto 0;
+    height: 100%;
 }
-
+#cyx{
+    height: 100%;
+    margin: 0 5%
+}
 #learnmore{
     width: 30%;
     min-height: 50px;
@@ -61,10 +69,7 @@ html, body{
     border: 2px solid black;
     color: white;
 }
-a, u {
-    text-decoration: none;
-    color: black;
-}
+
 
 .scrollbar-hidden {
   -ms-overflow-style: none;
